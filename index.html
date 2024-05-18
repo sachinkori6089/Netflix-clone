@@ -26,7 +26,7 @@
       rel="stylesheet" />
   </head>
 
-  <body>
+  <body>    
     <header>
       <div class="conatiner mb-3 my-4" style="top: 10px">
         <a href="#" target="_self">
@@ -46,7 +46,7 @@
               <i class="fas fa-play mx-1"></i>Play
             </button>
             <button class="button__list mx-2 my-3">
-              <i class="fas fa-list"></i> My List
+              <i class="fas fa-list"><a href="list.html">my list</a></i>
             </button>
           </div>
           <p class="featured__description">
@@ -60,178 +60,7 @@
         <h1>See what's next</h1>
         <p>Watch anywhere. Cancel Anytime</p>
       </div>
-      <div class="netflixOriginals">
-        <div class="original__header">
-          <h2 class="headings">NETFLIX ORIGINALS</h2>
-        </div>
-        <div class="original__movies" style="width: max-content">
-          <!-- Orignal Movies List Here -->
-        </div>
-      </div>
-      <div id="wishlist"></div>
-      <div class="movies__header">
-        <h2 class="headings">Trending Now</h2>
-      </div>
-      <div id="trending" class="movies__container">
-        <!-- Trending Movies List Here -->
-      </div>
-      <div class="movies__header">
-        <h2 class="headings">Top Rated</h2>
-      </div>
-      <div id="top_rated" class="movies__container">
-        <!-- Top Rated Movies List Here -->
-      </div>
-      <div class="showcase-content">
-        <h1>Genres</h1>
-        <!-- <p>Movies selected from different genres</p> -->
-      </div>
-      <div class="movies__header">
-        <h2 class="headings">Action</h2>
-      </div>
-      <div id="action" class="movies__container">
-        <!-- Action Movies List Here -->
-      </div>
-      <div class="movies__header">
-        <h2 class="headings">Adventure</h2>
-      </div>
-      <div id="adventure" class="movies__container">
-        <!-- Adventure Movies List Here -->
-      </div>
-      <div class="movies__header">
-        <h2 class="headings">Animation</h2>
-      </div>
-      <div id="animation" class="movies__container">
-        <!-- Animation Movies List Here -->
-      </div>
-      <div class="movies__header">
-        <h2 class="headings">Crime</h2>
-      </div>
-      <div id="crime" class="movies__container">
-        <!-- Crime Movies List Here -->
-      </div>
-      <div class="movies__header">
-        <h2 class="headings">Comedy</h2>
-      </div>
-      <div id="comedy" class="movies__container">
-        <!-- Comedy Movies List Here -->
-      </div>
-      <div class="movies__header">
-        <h2 class="headings">Documentary</h2>
-      </div>
-      <div id="documentary" class="movies__container">
-        <!-- Documentary Movies List Here -->
-      </div>
-      <div class="movies__header">
-        <h2 class="headings">Drama</h2>
-      </div>
-      <div id="drama" class="movies__container">
-        <!-- Drama Movies List Here -->
-      </div>
-      <div class="movies__header">
-        <h2 class="headings">Family</h2>
-      </div>
-      <div id="family" class="movies__container">
-        <!-- Family Movies List Here -->
-      </div>
-      <div class="movies__header">
-        <h2 class="headings">Fantasy</h2>
-      </div>
-      <div id="fantasy" class="movies__container">
-        <!-- Fantasy Movies List Here -->
-      </div>
-      <div class="movies__header">
-        <h2 class="headings">History</h2>
-      </div>
-      <div id="history" class="movies__container">
-        <!-- History Movies List Here -->
-      </div>
-      <div class="movies__header">
-        <h2 class="headings">Horror</h2>
-      </div>
-      <div id="horror" class="movies__container">
-        <!-- Horror Movies List Here -->
-      </div>
-      <div class="movies__header">
-        <h2 class="headings">Music</h2>
-      </div>
-      <div id="music" class="movies__container">
-        <!-- Music Movies List Here -->
-      </div>
-      <div class="movies__header">
-        <h2 class="headings">Mystery</h2>
-      </div>
-      <div id="mystery" class="movies__container">
-        <!-- Mystery Movies List Here -->
-      </div>
-      <div class="movies__header">
-        <h2 class="headings">Science Fiction</h2>
-      </div>
-      <div id="science_fiction" class="movies__container">
-        <!-- Science Fiction Movies List Here -->
-      </div>
-      <div class="movies__header">
-        <h2 class="headings">Thriller</h2>
-      </div>
-      <div id="thriller" class="movies__container">
-        <!-- Thriller Movies List Here -->
-      </div>
-      <div class="movies__header">
-        <h2 class="headings">TV Movies</h2>
-      </div>
-      <div id="tv_movies" class="movies__container">
-        <!-- TV Movies List Here -->
-      </div>
-      <div class="movies__header">
-        <h2 class="headings">War</h2>
-      </div>
-      <div id="war" class="movies__container">
-        <!-- War Movies List Here -->
-      </div>
-      <div class="movies__header">
-        <h2 class="headings">Western</h2>
-      </div>
-      <div id="western" class="movies__container">
-        <!-- Western Movies List Here -->
-      </div>
-    </main>
-    <!-- Modal -->
-    <div
-      class="modal fade"
-      id="trailerModal"
-      tabindex="-1"
-      role="dialog"
-      aria-hidden="true">
-      <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
-            <button
-              type="button"
-              class="close"
-              data-dismiss="modal"
-              aria-label="Close">
-              <span aria-hidden="true">&times;</span>
-            </button>
-          </div>
-          <div class="modal-body">
-            <span class="movieNotFound">Trailer Not Found</span>
-            <iframe
-              id="movieTrailer"
-              height="400"
-              src=""
-              frameborder="0"
-              allow="autoplay; encrypted-media"
-              allowfullscreen></iframe>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="container">
-      <span><br /><br /></span>
-    </div>
-
-    <footer
+<footer
       class="text-gray-600 body-font"
       style="background-color: #000; margin-bottom: -5rem; margin-top: 1rem; background: linear-gradient(360deg, transparent, rgba(37, 37, 37, 0.61), #111 );">
       <div
@@ -266,7 +95,7 @@
           <!--Github-->
           <a
             class="ml-3 text-gray-500"
-            href="https://github.com/Sachinkori6089/"
+            href="https://github.com/sachinkori6089"
             title="GitHub"
             rel="noopener"
             target="_blank">
