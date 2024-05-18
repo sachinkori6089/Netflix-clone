@@ -250,6 +250,6 @@ window.onload = () => {
     $('#trailerModal').modal('show')
   }
   
-  const displayMsg = () => {
-    alert("This feature will be added soon")
-  }
+  // const displayMsg = () => {
+  //   alert("This feature will be added soon")
+  // }
